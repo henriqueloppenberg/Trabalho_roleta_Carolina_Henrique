@@ -4,7 +4,8 @@
 - Henrique Antunes, Nºa21803297.
 ## Solução:
 1.Teste:
-- Definiram-se as variáveis de início, para uma visualização mais fácil das mesmas. Na função "int main()" encontra-se o menu, onde se define as opções e teclas para jogar sendo que "int escolher_opcao(void)" é o código que "lê" a opção selecionada pelo jogador.
+
+- Definiram-se as variáveis de início, para uma visualização mais fácil das mesmas. Na função "int main()" encontra-se o menu, onde se define as opções e teclas para jogar sendo que "int escolher_opcao()" é o código que "lê" a opção selecionada pelo jogador.
 
 - Para a dificuldade utilizou-se um ciclo onde o jogador escolhe uma letra, e dependendo da letra, retorna-se um valor a "opcao".
 
@@ -25,7 +26,7 @@
 2.Extras:
 
 - Implementação dos três níveis de dificuldade;
-- Implementação de um temporizador que atrase a obtenção dos números para o realismo.
+- Implementação de um temporizador que atrase a obtenção dos números para o realismo;
 - Tentativa da correta utilização do Git. 
 
 

@@ -17,7 +17,7 @@
 
 - Na função "int escolha_num()" encontra-se a matemática do jogo no caso em que se aposte numa casa, utilizando condições para definir quando se perde ou se ganha e redefinindo os valores dentro da variável "balance". 
 
-- Em "unsigned short par(int number) define-se o que é um número par para o computador e em "unsigned short impar(int number)" define-se o que é um número par.
+- Em "unsigned short par(int number) define-se o que é um número par para o computador e em "unsigned short impar(int number)" define-se o que é um número ímpar.
 
 - Então se o jogador escolher par o computador corre a função "int escolha_par()" que utiliza as mesmas variáveis do início e uma condição para aplicar as contas. Se o jogador escolher ímpar o código é similar, trocando as condições de vitória.
 

@@ -15,13 +15,13 @@
 
 - Para as apostas utilizou-se um "scanf" para guardar o número inteiro e uma condição para definir o limite entre 0 a 36, que são as casas apostáveis. 
 
-- Na função "int escolha_num(void)" encontra-se a matemática do jogo no caso em que se aposte numa casa, utilizando condições para definir quando se perde ou se ganha e redefinindo os valores dentro da variável "balance". 
+- Na função "int escolha_num()" encontra-se a matemática do jogo no caso em que se aposte numa casa, utilizando condições para definir quando se perde ou se ganha e redefinindo os valores dentro da variável "balance". 
 
 - Em "unsigned short par(int number) define-se o que é um número par para o computador e em "unsigned short impar(int number)" define-se o que é um número par.
 
-- Então se o jogador escolher par o computador corre a função "int escolha_par(void)" que utiliza as mesmas variáveis do início e uma condição para aplicar as contas. Se o jogador escolher ímpar o código é similar, trocando as condições de vitória.
+- Então se o jogador escolher par o computador corre a função "int escolha_par()" que utiliza as mesmas variáveis do início e uma condição para aplicar as contas. Se o jogador escolher ímpar o código é similar, trocando as condições de vitória.
 
-- No fim está definida a variável utilizada na aposta de uma casa específica, utilizando um temporizador (Novamente só para realismo) e um número aleatório, que será mostrado no ecrã e atribuído à variável "int rolar(void)".
+- No fim está definida a variável utilizada na aposta de uma casa específica, utilizando um temporizador (Novamente só para realismo) e um número aleatório, que será mostrado no ecrã e atribuído à variável "int rolar()".
 
 2.Extras:
 
